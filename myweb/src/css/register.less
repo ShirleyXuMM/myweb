@@ -1,0 +1,239 @@
+// 头部部分
+header{
+    width: 100%;
+    background-color: #fff;
+    .header_center{
+        margin-top: 30px;
+        margin-bottom: 19px;
+        .header_logo{
+            float: left;
+            width: 74px;
+            margin-right: 7px;
+            &>a{
+                &>img{
+                    vertical-align: top !important;
+                }
+            }
+        }
+        .header_right{
+            float: right;
+            position: relative;
+            margin-top: 19px;
+            z-index: 3;
+            &>img{
+                border: 0 none;
+                vertical-align: top;
+            }
+        }
+    }
+}
+
+// 注册部分
+section{
+    .reg_box{
+        .reg_left{
+            float: left;
+            width: 600px;
+            text-align: center;
+            padding-top: 50px;
+            &>img{
+                width: 560px;
+                border: 0 none;
+                vertical-align: top;
+                height: 360px;
+            }
+        }
+        .reg_right{
+            float: left;
+            width: 367px;
+            height: 600px;
+            background: url(../img/login_icon_list.png) 0 -115px no-repeat;
+            .reg_ul{
+                padding: 0 33px;
+                .reg_h2{
+                    padding-top: 23px;
+                    padding-bottom: 26px;
+                    h2{
+                        color: #F11D20;
+                        font-size: 22px;
+                        height: 38px;
+                        line-height: 38px;
+                        font-weight: bold;
+                        float: left;
+                    }
+                    .reg_tips{
+                        float: right;
+                        height: 38px;
+                        line-height: 38px;
+                        text-align: right;
+                        font-size: 12px;
+                        color: #8c8c8c;
+                        &>a{
+                            color: #c41f3a;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .reg_main{
+                    .form{
+                        &>form{
+                            .item{
+                                margin-bottom: 10px;
+                                position: relative;
+                                &>.itxt{
+                                    color: #333333;
+                                    border: 1px solid #c8c8c8;
+                                    height: 25px;
+                                    line-height: 25px;
+                                    padding-left: 6px;
+                                    width: 293px;
+                                    font-size: 12px;
+                                    padding: 7px 0 7px 6px;
+                                    vertical-align: middle;
+                                }
+                                &>.err_box{
+                                    height: 23px;
+                                    line-height: 23px;
+                                    margin-bottom: 3px;
+                                    &>.err_msg{
+                                        color: #c4203b;
+                                        padding: 0;
+                                        position: relative;
+                                        height: 23px;
+                                        line-height: 23px;
+                                        text-align: left;
+                                        width: 275px;
+                                        font-size: 12px;
+                                        &>.icon_err{
+                                            background: url(../images/login_icon_list.png) no-repeat 0 0;
+                                            width: 18px;
+                                            height: 18px;
+                                            display: inline-block;
+                                            vertical-align: middle;
+                                            font-style: italic;
+                                        }
+                                    }
+                                }
+                            }
+                            .item4{
+                                &>input{
+                                    width: 157px !important;
+                                }
+                                &>a{
+                                    margin-left: 11px;
+                                    color: #444444;
+                                    font-family: "宋体";
+                                    font-weight: bold;
+                                    font-size: 12px;
+                                    text-align: center;
+                                    outline: 0;
+                                    display: inline-block;
+                                    background-color: #f6f6f6;
+                                    border: 1px solid #c8c8c8;
+                                    width: 117px;
+                                    height: 38px;
+                                    line-height: 38px;
+                                    vertical-align: top;
+                                }
+                            }
+                            .item3{
+                                overflow: hidden;
+                                &>input{
+                                    width: 157px !important;
+                                    display: inline-block;
+                                    float: left;
+                                    margin-right: 10px;
+                                }
+                                &>img{
+                                    width: 78px;
+                                    height: 38px;
+                                    border: 0 none;
+                                    vertical-align: top;
+                                    float: left;
+                                    
+                                }
+                                &>a{
+                                    display: block;
+                                    color: #c41f3a;
+                                    font-size: 12px;
+                                    text-decoration: none;
+                                    font-family: "宋体";
+                                    padding-top: 15px;
+                                }
+                            }
+                            .item5{
+                                .login-btn{
+                                    &>input{
+                                        cursor: pointer;
+                                        background: #F11D20;
+                                        display: block;
+                                        width: 310px;
+                                        height: 40px;
+                                        color: #fff;
+                                        line-height: 40px;
+                                        text-align: center;
+                                        font-size: 14px;
+                                        font-family: "宋体";
+                                        font-weight: bold;
+                                    }
+                                }
+                                .agree{
+                                    padding-top: 5px;
+                                    &>input{
+                                        vertical-align: middle;
+                                    }
+                                    &>label{
+                                        color: #767676;
+                                        padding-left: 6px;
+                                        vertical-align: middle;
+                                        margin: 0;
+                                        padding: 0;
+                                       &>span{
+                                           &>a{
+                                             color: #c41f3a !important;
+                                           }
+                                       }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// footer部分
+footer{
+    background-color: #fff;
+    margin-top: 25px;
+    overflow: hidden;
+    .footer_bottom{
+        background-color: #fff;
+        &>div{
+            &>p{
+                padding-top: 10px;
+                text-align: center;
+                font-family: "宋体";
+                color: #7e7e7e;
+                line-height: 25px;
+            }
+            &>p:nth-child(1){
+                &>span{
+                    font-family: Arial;
+                    color: #666666;
+                }
+            }
+            .footer_p{
+                padding: 30px 0 40px 0;
+                img{
+                    border: 0;
+                    vertical-align: top;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

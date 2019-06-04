@@ -1,0 +1,99 @@
+* {
+    box-sizing: content-box !important;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+dt,
+dd {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+    font-size: 12px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+
+b,
+strong,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal !important;
+    font-style: normal;
+}
+
+.wrapper {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    width: 100%;
+    font-family: "PingFangSC-Regular", "微软雅黑", "宋体", "arial", "Hiragino Sans GB", "Microsoft Yahei", "Tahoma", "Helvetica", "STHeiti";
+}

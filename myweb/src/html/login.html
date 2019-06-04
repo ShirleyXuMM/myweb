@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header_center w1000 clearfix">
+            <div class="header_logo">
+                <a href="https://www.happigo.com/">
+                    <img src="../img/logo.jpg">
+                </a>
+            </div>
+            <div class="header_right">
+                <img src="../img/top_center.jpg">
+            </div>
+        </div>
+    </header>
+
+    <!-- 登录部分 -->
+    <section class="w980">
+        <div class="reg_box clearfix">
+            <div class="reg_left clearfix">
+                <img src="../img/05657833660318005.jpg" alt="288">
+            </div>
+            <div class="reg_right clearfix">
+                <div class="reg_ul">
+                    <div class="reg_h2 clearfix">
+                        <h2>登录快乐购</h2>
+                        <div class="reg_tips">
+                            还没有快乐购账号
+                            <a href="./register.html">快速注册</a>
+                        </div>
+                    </div>
+                    <div class="radio_box">
+                        <span class="q_login">
+                            <input type="radio" id="radio1" name="r1" value="1" checked>
+                            <label>快捷登录</label>
+                        </span>
+                        <span class="c_login">
+                            <input type="radio" id="radio2" name="r1" value="0">
+                            <label>普通密码登录</label>
+                        </span>
+                    </div>
+                    <div class="login-main">
+                        <div class="form">
+                            <form id="login_form" method="post" action="../../data/login.php">
+                                <div class="item item1">
+                                    <input type="text" maxlength="11" placeholder="请输入手机号码" class="itxt" name="sms_mobile" id="sms_mobile">
+                                    <div class="err_box">
+                                        <div class="err_msg err_msg1" style="display: none;" id="error_sms_mobile">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item item2">
+                                    <input type="password" placeholder="请输入密码" class="itxt" maxlength="20" name="password" id="password">
+                                    <div class="err_box">
+                                        <div class="err_msg" style="display: none;" id="error_password_confirm">
+                                            <i class="icon_err"></i> 请输入您的密码，您的密码可能为字母、数字或符号的组合
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item item5">
+                                    <div class="login-btn">
+                                        <input type="submit" value="立即登录" style="background:#F11D20">
+                                        </input>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="coagent">
+                            <h5>您可以使用以下账号登录</h5>
+                            <ul>
+                                <li>
+                                    <a class="hz_xl" href="https://www.happigo.com/shop/api.php?act=toqq" title="QQ">QQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="hz_qq" href="https://www.happigo.com/shop/api.php?act=tosina" title="新浪微博">新浪微博
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="hz_zfb" href="https://www.happigo.com/shop/api.php?act=zfb" title="支付宝">支付宝
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="hz_login_weixin" href="https://www.happigo.com/shop/api.php?act=weixin" title="微信">
+                                        <img src="../img/icon_wechat_login.png" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer部分 -->
+    <footer class="clearfix">
+        <div class="footer_bottom">
+            <div class="w1200">
+                <p>
+                    <span class="font_arial">Copyright© 2006-2019 happigo. All Rights Reserved </span> 免费服务热线: 400-705-1111 | 固话也可拨打: 400-705-8800
+                    <br/> 湘ICP备17009657号 信息网络传播视听节目许可证号：1810530
+                </p>
+                <p class="footer_p">
+                    <a href="#" target="_blank">
+                        <img src="../img/foot_img3.png" />
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="../img/foot_img4.png" />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
