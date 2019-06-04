@@ -154,6 +154,7 @@ section .reg_box .reg_right .reg_ul .login-main .form > form .item5 .login-btn >
   font-size: 14px;
   font-family: "宋体";
   font-weight: bold;
+  border: 0px;
 }
 section .reg_box .reg_right .reg_ul .login-main .coagent h5 {
   color: #333;
